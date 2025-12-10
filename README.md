@@ -2,6 +2,9 @@
 
 A Django web application for generating flash cards from text input. The application uses an LLM (Large Language Model) to automatically create question-answer pairs from any text, making it easy to create study materials for learning.
 
+<img width="1809" height="1095" alt="image" src="https://github.com/user-attachments/assets/019912db-4fff-4545-864e-bdaa4e39db5f" />
+
+
 ## Features
 
 - **Text to Flash Cards**: Simply paste or type any text, and the application will automatically generate flash cards with questions and answers
