@@ -1,0 +1,33 @@
+## Build system configuration
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+## Project metadata
+[project]
+name = "flashcards"
+version = "0.1.0"
+description = "A Django web application for generating flash cards from text input using an LLM."
+readme = "README.md"
+requires-python = ">=3.12"
+license = { text = "MIT" }
+authors = [
+  { name = "igardev" },
+]
+keywords = ["django", "flashcards", "anki", "llm"]
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.12",
+  "Framework :: Django",
+]
+dependencies = [
+  "django>=5.2.8",
+  "requests",
+]
+
+[project.urls]
+Homepage = "https://github.com/igardev/flashcards"
+
+
